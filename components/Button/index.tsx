@@ -5,7 +5,7 @@ const Button = ({ onClick }: any) => {
             <button style={{
                 padding: '1rem 2rem',
                 borderRadius: '.4rem',
-                background: '#743232',
+                background: '#32743b',
                 color: '#fff',
                 border: 'none',
             }}
