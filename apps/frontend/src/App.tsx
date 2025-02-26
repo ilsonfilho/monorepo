@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>FRONTEND - 1.0.0</h1>
+      <h1>FRONTEND - 1.0.1</h1>
       <h2>{Uppercase('ilson')}</h2>
       <Card>TESTE</Card>
       <Button
