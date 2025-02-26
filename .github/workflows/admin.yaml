@@ -4,8 +4,8 @@ on:
     branches:
       - main
     paths:
-      - 'apps/admin/*'
-      
+      - 'apps/admin/**'
+
 jobs:
   deploy:
     name: DEPLOY DO ADMIN
