@@ -1,4 +1,4 @@
-name: ADMIN - CI/CD
+name: FRONTEND - CI/CD
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: DEPLOY DO ADMIN
+    name: DEPLOY DO FRONTEND
     runs-on: ubuntu-latest
  
     steps:
@@ -22,5 +22,5 @@ jobs:
       run: ls -la
 
     - name: LISTAR DIR
-      run: ls -la apps/admin/
+      run: ls -la apps/frontend/
  
