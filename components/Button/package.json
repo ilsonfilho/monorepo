@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/Button",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "author": "Lucia Morena",
+  "license": "MIT"
+}

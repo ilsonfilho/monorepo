@@ -1,0 +1,21 @@
+name: Push-to-EC2
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: DEPLOY DO ADMIN
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+
+    - name: Teste de execução
+      run: echo 'Execução do ADMIN'
+
+    - name: LISTAR TUDO
+      run: ls -la
+
+ 

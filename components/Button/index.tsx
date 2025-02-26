@@ -1,0 +1,20 @@
+
+const Button = ({ onClick }: any) => {
+    return (
+        <>
+            <button style={{
+                padding: '1rem 2rem',
+                borderRadius: '.4rem',
+                background: '#743232',
+                color: '#fff',
+                border: 'none',
+            }}
+                onClick={onClick}
+            >BOTÃO</button>
+        </>
+    )
+}
+
+export {
+    Button
+}

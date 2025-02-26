@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/Uppercase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucia Morena",
+  "license": "MIT"
+}

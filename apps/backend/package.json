@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Lucia Morena",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --watch ."
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
