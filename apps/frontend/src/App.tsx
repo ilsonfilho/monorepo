@@ -1,4 +1,5 @@
-import { Button } from '@monorepo/Button'
+import { Button } from "@monorepo/Button"
+
 import { Card } from '@monorepo/Card'
 import { Uppercase } from '@monorepo/Uppercase'
 
@@ -11,7 +12,7 @@ function App() {
       <Card>TESTE</Card>
       <Button
         onClick={() => alert('1')}
-      />
+      >TESTE 1</Button>
     </>
   )
 }

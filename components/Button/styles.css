@@ -1,0 +1,11 @@
+.botao {
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    background: #ccc;
+    color: #000;
+    border: none;
+}
+
+.botao:hover {
+    background: #32743b;
+}

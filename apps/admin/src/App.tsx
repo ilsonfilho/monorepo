@@ -12,7 +12,7 @@ function App() {
       <Card>TESTE</Card>
       <Button
         onClick={() => alert('2')}
-      />
+      >TESTE 2</Button>
     </>
   )
 }
