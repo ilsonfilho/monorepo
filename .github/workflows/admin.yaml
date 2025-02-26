@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'apps/admin/*'
+      
 jobs:
   deploy:
     name: DEPLOY DO ADMIN
@@ -18,4 +21,6 @@ jobs:
     - name: LISTAR TUDO
       run: ls -la
 
+    - name: LISTAR DIR
+      run: ls -la apps/admin/
  
